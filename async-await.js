@@ -65,3 +65,15 @@ const getNews = async () => {
   }
   
   getNews()
+
+
+
+//   ****************NOT*****************//
+//   fetch ve axios, web tarayıcıları ve Node.js ortamında HTTP istekleri yapmak için kullanılan iki popüler JavaScript kütüphanesidir. Her ikisi de benzer işlevselliğe sahip olsa da, bazı farklılıklar bulunmaktadır:
+// API Tasarımı: fetch, tarayıcıların yerleşik bir API'sidir ve standart JavaScript fetch fonksiyonu ile kullanılabilir. Diğer yandan, axios, bir üçüncü taraf kütüphanedir ve daha zengin bir API sağlar.
+// Promise Desteği: fetch, Promise tabanlı bir API'ye sahiptir. Ancak, bazı durumlarda isteği işlemek için ek Promise zincirleri gerekebilir. axios, Promise tabanlı bir API sunar ve genellikle daha kolay kullanılır.
+// Tarayıcı Desteği: fetch, modern tarayıcılarda desteklenirken, eski tarayıcılarda tam olarak desteklenmeyebilir. axios, XMLHttpRequest (XHR) kullanarak çalışır ve eski tarayıcılar dahil geniş bir tarayıcı desteği sunar.
+// HTTP İşlemleri: fetch, varsayılan olarak JSON formatında veri gönderir ve alır, ancak axios daha esnek bir yapıya sahiptir ve çeşitli formatlarda (örneğin JSON, form verileri, URL kodlaması vb.) HTTP isteklerini kolayca yapabilir.
+// Hata Yönetimi: fetch, ağ hatası veya HTTP hatalarını otomatik olarak yakalamaz, bu nedenle ek hata işleme kodu gerekebilir. axios, HTTP hatalarını otomatik olarak işler ve daha iyi hata yönetimi sağlar.
+// İnterseptörler (Interceptor) ve İnterseptör Zinciri: axios, istekler ve yanıtlar üzerinde işlem yapmak için interseptörler sağlar. Bu, istekleri ve yanıtları değiştirmek, başlıkları eklemek veya kaldırmak gibi işlemleri kolaylaştırır. fetchte bu özellik bulunmamaktadır.
+// Genel olarak, fetch tarayıcıların sağladığı bir standartken, axios daha geniş bir işlevsellik sunar ve özellikle daha eski tarayıcılarla çalışırken ve gelişmiş hata yönetimi ve interseptörler gibi özellikler gerektiğinde tercih edilebilir.
